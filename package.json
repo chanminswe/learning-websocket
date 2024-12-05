@@ -1,0 +1,19 @@
+{
+  "name": "learning-websocket",
+  "version": "1.0.0",
+  "description": "this repository is for me focusing / learning about how websockets works in node.js before I start building my own social media type project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon index.js" 
+  },
+  "author": "CMS",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  }
+}
